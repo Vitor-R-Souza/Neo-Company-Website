@@ -1,8 +1,8 @@
 /*sla oq chamar isso*/
 :root{
     --cor-Red:rgb(255, 0, 0);
-    --cor-BaseText:#6d6d6d;
-    --cor-White:#fff;
+    --cor-HeaderText:#6d6d6d;
+    --cor-text:#fff;
     --cor-Background:black;
 }
 
@@ -40,13 +40,13 @@ body{
     transition: .2s;
 }
 
-.btn-contato button:hover{
+button:hover{
     box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.907);
     transform: scale(1.05);
 }
 
 h2.titulo{
-    color: #fff;
+    color: var(--cor-text);
     font-size: 40px;
     text-align: center;
 }
@@ -72,7 +72,7 @@ header > .interface{
 }
 
 header a{
-    color: var(--cor-BaseText);
+    color: var(--cor-HeaderText);
     text-decoration: none;
     display: inline-block;
 }
@@ -114,13 +114,13 @@ section.topo-do-site .flex{
 }
 
 section.topo-do-site h1{
-    color: var(--cor-White);
+    color: var(--cor-text);
     font-size: 40px;
     line-height: 40px;
 }
 
 .topo-do-site .text-topo-site p{
-    color: var(--cor-White);
+    color: var(--cor-text);
     margin: 40px 0px;
 }
 
@@ -134,7 +134,7 @@ section.especialidades .flex{
 }
 
 .especialidades .espec_box{
-    color: #fff;
+    color: var(--cor-text);
     padding:  40px;
     margin-top: 45px;
     border-radius: 30px;
@@ -172,4 +172,53 @@ section.especialidades .flex{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/*sobre*/
+
+section.sobre{
+    padding: 40 4%;
+    margin-top: 100px;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+
+}
+
+.sobre .txt-sobre{
+    color: var(--cor-text);
+}   
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+
+}
+
+.sobre .txt-sobre h2 span{
+    color: var(--cor-Red);
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-Red);
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+.sobre .img-sobre img{
+    height: 650px;
+    border-radius: 50px;
 }
