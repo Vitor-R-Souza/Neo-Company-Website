@@ -96,7 +96,7 @@ header nav ul li{
 
 section.topo-do-site{
     padding: 40px 4%;
-    background-image: url(../images/wallpaper.jpg);
+    background-image: url(../images/ar-15.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -154,21 +154,21 @@ section.especialidades .flex{
 }
 
 #militar{
-    background-image: url(../images/night.jpg);
+    background-image: url(../images/choopergunner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #protection{
-    background-image: url(../images/soldier2.jpg);
+    background-image: url(../images/sniper.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #training{
-    background-image: url(../images/gun.jpg);
+    background-image: url(../images/soldiertraining.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
