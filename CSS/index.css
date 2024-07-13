@@ -45,6 +45,16 @@ body{
     transform: scale(1.05);
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: var(--cor-Red);
+}
+
 /*ESTILO CABEÇARIO*/
 
 header{
@@ -109,11 +119,57 @@ section.topo-do-site h1{
     line-height: 40px;
 }
 
-.topo-do-site .text-topo-site h1 span{
-    color: var(--cor-Red);
-}
-
 .topo-do-site .text-topo-site p{
     color: var(--cor-White);
     margin: 40px 0px;
+}
+
+/*especialidades*/
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .espec_box{
+    color: #fff;
+    padding:  40px;
+    margin-top: 45px;
+    border-radius: 30px;
+    transition: .2s;
+    width: 700px;
+}
+
+.especialidades .espec_box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--cor-Red);
+}
+
+.especialidades .espec_box h3{
+    color: var(--cor-Red);
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+#militar{
+    background-image: url(../images/night.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#protection{
+    background-image: url(../images/soldier2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#training{
+    background-image: url(../images/gun.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
