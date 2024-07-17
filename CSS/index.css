@@ -140,6 +140,9 @@ section.especialidades .flex{
     border-radius: 30px;
     transition: .2s;
     width: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .especialidades .espec_box:hover{
@@ -151,27 +154,6 @@ section.especialidades .flex{
     color: var(--cor-Red);
     font-size: 30px;
     margin: 15px 0px;
-}
-
-#militar{
-    background-image: url(../images/choopergunner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#protection{
-    background-image: url(../images/sniper.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#training{
-    background-image: url(../images/soldiertraining.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 /*sobre*/
@@ -221,4 +203,69 @@ section.sobre .flex{
 .sobre .img-sobre img{
     height: 650px;
     border-radius: 50px;
+}
+
+/*SECIÇOS*/
+
+section.service{
+    padding: 80px 4%;
+}
+
+section.service .sub-service .flex{
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.service .sub-service{
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.img-back{
+    width: 360px;
+    height: 460px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    transition: .5s;
+}
+
+.img-back:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--cor-Red);
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #000000ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay h1{
+    color: var(--cor-Red);
+}
+
+.overlay p{
+    color: var(--cor-text);
+}
+
+.overlay:hover{
+    opacity: 1;
 }
