@@ -55,6 +55,22 @@ h2.titulo span{
     color: var(--cor-Red);
 }
 
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-Red);
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+.borda{
+    border-top: 2px solid var(--cor-Red);
+}
+
 /*ESTILO CABEÇARIO*/
 
 header{
@@ -188,24 +204,13 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--cor-Red);
-    font-size: 25px;
-    cursor: pointer;
-    margin: 0 10px;
-    transition: .2s;
-}
 
 .sobre .img-sobre img{
     height: 650px;
     border-radius: 50px;
 }
 
-/*SECIÇOS*/
+/*SEvIÇOS*/
 
 section.service{
     padding: 80px 4%;
@@ -321,4 +326,30 @@ form .btn-send input[type=submit]{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+
+/*footer*/
+
+footer {
+    padding: 60px 4%;
+}
+
+footer .line-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo-footer img{
+    width: 70px;
+}
+
+footer .line-footer p i{
+    color: var(--cor-Red);
+    font-size: 25px;
+}
+
+footer .line-footer p a{
+    color: var(--cor-text);
+    text-decoration: none;
 }
