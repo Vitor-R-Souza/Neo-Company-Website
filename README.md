@@ -1,6 +1,6 @@
 # NEO Company
 
-![Banner](images/png.png)
+![Banner](images/Banner.png.png)
 
 Este repositório é um exercício prático para treinar habilidades em HTML e CSS, criando a página inicial de um site sobre uma empresa de segurança privada. O site apresenta parte da história da empresa e, de forma resumida, seus serviços.
 
